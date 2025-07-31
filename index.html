@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maestro Billiards Club</title>
+
+    <!-- Google Fonts: Inter -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav
+      id="navbar"
+      class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">Maestro Billiards Club™</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#carousel">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#heading">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#cards">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#footer">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="text-center text-white py-5">
+      <div class="container">
+        <h1 class="display-4">Welcome to Maestro Billiards Club™</h1>
+        <p class="lead">Top-tier gear for your game.</p>
+        <a href="#cards" class="btn btn-custom">Explore Now</a>
+      </div>
+    </section>
+
+    <!-- Carousel Section -->
+    <section id="carousel" class="py-5 bg-light">
+      <div>
+        <h2 class="text-center mb-4">Featured Products</h2>
+        <p class="text-muted text-center">
+          Explore our exclusive collection of featured products—handpicked for
+          players who demand the finest in performance and style.
+        </p>
+      </div>
+      <div class="container">
+        <div
+          id="billiardsCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./images/Screenshot 2025-07-31 151248.png"
+                class="d-block w-100"
+                alt="Table"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/Screenshot 2025-07-31 151317.png"
+                class="d-block w-100"
+                alt="Cues"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/Screenshot 2025-07-31 151307.png"
+                class="d-block w-100"
+                alt="Chalk"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#billiardsCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#billiardsCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Heading Section -->
+    <section id="heading" class="py-5 text-center">
+      <div class="container">
+        <h2>About Maestro Billiards Club™</h2>
+        <p class="text-muted">
+          Dedicated to providing billiards players with the finest equipment and
+          accessories since 2020. We specialize in luxury, high-end gear crafted
+          for precision, style, and performance.
+        </p>
+
+        <div class="row mt-4">
+          <div class="col-md-6 mb-3">
+            <img
+              src="./images/464379990_17845189035339014_6622494282159485232_n.jpg"
+              alt="Billiards Table"
+              class="img-fluid rounded shadow"
+            />
+          </div>
+          <div class="col-md-6 mb-3">
+            <img
+              src="./images/470617869_122123936834523479_2518148946752993235_n.jpg"
+              alt="Billiards Game"
+              class="img-fluid rounded shadow"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cards Section -->
+    <section id="cards" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Our Collection</h2>
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-sm-6 col-md-4">
+        <div class="card">
+          <img src="./images/71NxsgK-uzL._AC_SL1500_.jpg" class="card-img-top" alt="Cue" />
+          <div class="card-body">
+            <h5 class="card-title">Supreme Carbon Fiber Cue</h5>
+            <p class="card-text">₱24,000.00</p>
+            <a href="#" class="btn btn-black">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-sm-6 col-md-4">
+        <div class="card">
+          <img src="./images/Screenshot 2025-07-31 145728.png" class="card-img-top" alt="Chalk" />
+          <div class="card-body">
+            <h5 class="card-title">Kim Jones Louis Vuitton Billiards Set</h5>
+            <p class="card-text">₱43,000.00</p>
+            <a href="#" class="btn btn-black">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-sm-6 col-md-4">
+        <div class="card">
+          <img src="./images/Edinburgh-Pedestal-brunswick-pool-table-Room3_651_447_49d5a003-78b0-44ca-932a-cdde237d0a32_900x750.jpg" class="card-img-top" alt="Table" />
+          <div class="card-body">
+            <h5 class="card-title">Edinburgh Pedestal Brunswick Pool table</h5>
+            <p class="card-text">₱210,000.00</p>
+            <a href="#" class="btn btn-black">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-sm-6 col-md-4">
+        <div class="card">
+          <img src="./images/Screenshot 2025-07-31 151248.png" class="card-img-top" alt="Gloves" />
+          <div class="card-body">
+            <h5 class="card-title">Supreme 8Ball Hoodie</h5>
+            <p class="card-text">₱8,000.00</p>
+            <a href="#" class="btn btn-black">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-sm-6 col-md-4">
+        <div class="card">
+          <img src="./images/Screenshot 2025-07-31 151317.png" class="card-img-top" alt="Cue Case" />
+          <div class="card-body">
+            <h5 class="card-title">Supreme 8Ball Polo</h5>
+            <p class="card-text">₱5,500.00</p>
+            <a href="#" class="btn btn-black">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-sm-6 col-md-4">
+        <div class="card">
+          <img src="./images/Screenshot 2025-07-31 151307.png" class="card-img-top" alt="Lighting" />
+          <div class="card-body">
+            <h5 class="card-title">Supreme 8Ball Leather Jacket</h5>
+            <p class="card-text">₱12,700.00</p>
+            <a href="#" class="btn btn-black">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Footer -->
+    <footer id="footer" class="custom-footer text-white text-center py-4">
+      <div class="container">
+        <p class="mb-1">© 2025 Maestro Billiards Club™</p>
+        <small>Follow us on Facebook | Instagram | YouTube</small>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
